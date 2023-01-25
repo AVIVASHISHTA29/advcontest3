@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>adv js-3</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="container">
+  <h1 class="center">TO-DO LIST</h1>
+
+ <form>
+  <input id="item"  type="text" placeholder="item name">
+  <input  id="Deadline" type="date" placeholder="Deadline">
+  <select type="dropdown" id="dropdown">
+   <option>Priority</option>
+   <option value="high">high</option>
+   <option value="high">medium</option>
+   <option value="high">low</option>
+  </select>
+  <button id="btn" class="bt">Add Item</button>
+ </form>
+ 
+</div>
+
+
+  <div id="today" class="todoitemcontainer">
+<h2>Today's TodoList</h2>
+  </div>
+
+<div id="future" class="todoitemcontainer">
+ <h2>Future TodoList</h2>
+ </div>
+
+ <div id="completed" class="todoitemcontainer">
+  <h2>Completed TodoList</h2>
+  </div>
+
+
+ <script src="scriptt.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.center{
+   text-align: center;
+
+}
+input,select{
+     width: 200px;
+}
+.container{
+   text-align: center;
+}
+
+/* .bt{
+   background-color: black;
+   color: white;
+   width: 100px;
+   padding: 5px 2px;
+} */
+.todoitemcontainer{
+     display: flex;
+     flex-direction: column;
+     gap:10px;
+     width: 80%;
+}
