@@ -6,7 +6,7 @@ let priorityElement = document.getElementById('dropdown');
 
 
 
-let  addTodo = ()=>{
+const addTodo = ()=>{
       let todo =  todoElement.value;
       let deadline = DeadlineElement.value;
       let priority = priorityElement.value;
@@ -15,7 +15,7 @@ let  addTodo = ()=>{
       console.log("todo",todo,)
 }
 
-btn.addEventListener('click',addTodo);
+
 
 
 
